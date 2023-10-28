@@ -1,0 +1,42 @@
+/*  BASIC SUDO CLASSES
+
+a:link{
+    color: rgb(97, 97, 217);
+}
+a:hover{
+    color: aquamarine;
+    font-size: 1.1em;
+}
+a:active{
+    color: tomato;
+    font-size: 1.1em;
+}
+a:visited{
+    color: aliceblue;
+}
+
+*/
+
+/* LIST
+li:hover{
+    background-color: yellow;
+}
+li:not(:hover){
+    background-color: rgb(43, 168, 55);
+}
+*/
+
+li:nth-child(3n+2){
+    background-color: yellow;
+}
+
+
+/* div */
+#greeting p{
+    background-color: chartreuse;
+    padding: 10px;
+    display: none;
+}
+#greeting:hover p{
+    display: block;
+}

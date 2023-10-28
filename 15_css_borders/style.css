@@ -1,0 +1,19 @@
+h1{
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(140, 26, 117);
+    border-radius: 10px;
+}
+p{
+    border-bottom: 3px solid rgb(170, 50, 50);
+    border-top: 3px solid rgb(198, 198, 58);
+    border-left: 3px dotted rgb(175, 129, 42);
+    border-right: 3px dotted rgb(69, 99, 24);
+}
+/* hm asay be likh sakty
+h1{
+
+    border:3px solid white;
+    border-redius: 20px;
+  
+}

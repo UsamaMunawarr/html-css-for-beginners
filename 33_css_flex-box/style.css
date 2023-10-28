@@ -1,0 +1,34 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    border: 10px solid black;
+    height: 90vh;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    column-gap: 1em;
+    row-gap: 1em;
+    align-items: baseline;
+    justify-content: space-evenly;
+}
+.box{
+    width: 150px;
+    height: 150px;
+    font-size: 8em;
+    text-align: center;
+    border-radius: 15px;
+}
+#box1{
+    background-color: tomato;
+    align-self: end;
+    order:-1;
+}
+#box2{
+    background-color: rgb(40, 193, 37);
+    align-self: center;
+}
+#box3{
+    background-color: rgb(28, 174, 227);
+}
+#box4{
+    background-color: rgb(177, 29, 197);
+}

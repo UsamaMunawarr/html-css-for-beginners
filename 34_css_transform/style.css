@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+}
+
+/* Properties: Transform (x-axsis, y-axsis ,z-axsis)
+             transform: translateX(100%) rotateZ(90deg) scale(0.5);
+             translation: E.g: translateX,translateY,translate(0 ,0)
+             rotation: E.g: rotateX(90deg)
+             scale
+             skew
+*/
+.box{
+    width:250px;
+    height: 250px;
+    border: 5px solid;
+    font-size: 13em;
+    text-align: center;
+
+    transform: translateX(100px) rotateZ(45deg) scale(0.5);
+
+
+
+}
+#box1{
+    background-color: green;
+}
+#box2{
+    background-color: rgb(164, 35, 166);
+}
+#box3{
+    background-color: rgb(59, 15, 194);
+}
+
+
+img{
+    transform: translateX(100%) rotateZ(45deg) scale(0.5);
+    width: 200px;
+    height: 200px;
+}

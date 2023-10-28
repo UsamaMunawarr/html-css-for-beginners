@@ -1,0 +1,89 @@
+/* relative
+#box1{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(42, 94, 207);
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+*/
+
+
+/* fixed
+#box1{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(42, 94, 207);
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
+*/
+
+
+/* absolute
+#box1{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(42, 94, 207);
+    position:fixed;
+    top: 100px;
+    left: 100px;
+   
+}
+#box2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(42, 207, 72);
+    position: absolute;
+    top: 50px;
+    left: 50px;
+
+
+}
+*/
+
+
+/* sticky
+#box1{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(42, 94, 207);
+    position:sticky;
+    top: 100px;
+    left: 100px;
+   
+}
+#box2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(42, 207, 72);
+    position: absolute;
+    top: 50px;
+    left: 50px;
+
+
+}
+*/ 
+
+/* static */
+#box1{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(42, 94, 207);
+    position:sticky;
+    top: 100px;
+    left: 100px;
+   
+}
+#box2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(42, 207, 72);
+    position: static;
+    top: 50px;
+    left: 50px;
+
+
+}

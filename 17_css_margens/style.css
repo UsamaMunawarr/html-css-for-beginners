@@ -1,0 +1,18 @@
+body{
+    margin: 0px;
+}
+.box{
+    border: 5px solid;
+    font-size: 5em;
+    width: 250px;
+    height: 250px;
+    /*margin: auto; (box middle ma ajaya gay)*/
+}
+#box1{
+    background-color: rgb(180, 50, 50);
+    margin-right: 50px;
+}
+#box2{
+    background-color: rgb(40, 75, 107);
+    margin-right: 50px;
+}
